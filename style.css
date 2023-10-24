@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+.output {
+  padding-top: 20px;
+}
+#num1-el,
+#num2-el {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #2d2e32;
+  text-decoration: underline;
+}
+
+.card {
+  padding: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.btn {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+button {
+  color: #f8f8f8;
+  border: none;
+  padding: 10px 16px;
+  color: #1ec66d;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #1ec66d;
+  color: #fff;
+}
+
+.screen {
+  width: 100%;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+#sum-el {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #2d2e32;
+  padding-left: 10px;
+}
